@@ -13,7 +13,10 @@ app.value = It works !
 
 ## Deploy it on Tomcat
 Add VM args to Tomcat :
-```-Dspring.config.location=/path/to/file/application.properties```
+
+```
+-Dspring.config.location=/path/to/file/application.properties
+```
 
 ## Check it out
 http://localhost:8080/
